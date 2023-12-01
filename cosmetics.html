@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cosmetics_style.css">
+    <title>Cosmetics - Groca</title>
+</head>
+
+<nav>
+    <div class="navigation_bar"></div>
+</nav>
+
+<body>
+    <header>
+        <nav>
+            <span id="logo_s">
+                <a href="../home page/index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+            </span>
+            <span id="l_span">
+                <a class="wpage_l" id="home_l" href="index.html">Home</a>
+                <a class="wpage_l" id="shop_l" href="#start_shop">Shop</a>
+                <a class="wpage_l" id="bs_l" href="#">Best Sellers</a>
+                <a class="wpage_l" id="dotd_l" href="#">Deal of The Day</a>
+                <a class="wpage_l" id="pages_l" href="#">Pages</a>
+                <a class="wpage_l" id="cu_l" href="#services">Contact Us</a>
+            </span>
+            <span id="cust_ser">
+                <div class="hover_me">
+                    <button><img src="images/account.png" alt="account"></button>
+                    <div class="hover_content">
+                        <a href="login.html"><button>Sign up</button></a>
+                        <p id="c_join">New customer?<a class="join" href="sign-up.html"> join now</a></p>
+                        <hr>
+                        <a href="../Final_term_project_Front_end/sign-up.html" class="join">My Orders</a>
+                        <a href="#" class="join">My recommendations</a>
+                        <a href="#" class="join">My subscriptions</a>
+                        <a href="#" class="join">My account</a>
+                    </div>
+                </div>
+                <a href="#" class="a_link">
+                    <img src="images/cart.png" alt="cart" >
+                </a>
+                <a href="#" class="a_link">
+                    <img src="images/favourite.png" alt="favourite" >
+                </a>
+                <select name="country" id="country">
+                    <option value="select_your_country">Country</option>
+                    <option value="us">US</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </span>
+        </nav>
+        <div id="input">
+            <div class="hover_me" id="all_categories">
+                <button>All category</button>
+                <div class="hover_content" id="page_links">
+                    <a href="fashion page.html" class="hc_a">Clothing</a>
+                    <hr class="hc_hr">
+                    <a href="vegetables&fruit.html" class="hc_a">Vegetables & Fruits</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Technology</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Household</a>
+                    <hr class="hc_hr">
+                    <a href="new_dairy.html" class="hc_a">Dairy</a>
+                    <hr class="hc_hr">
+                    <a href="cosmetics.html" class="hc_a">Cosmetics</a>
+                    <hr class="hc_hr">
+                    <a href="medi.html" class="hc_a">Medicine</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Check out our deals</a>
+                </div>
+            </div>
+            <input type="text" name="search" id="search">
+             <button id="si_button"><label for="search" id="search_input"><img src="images/search.png" alt="search button"></label></button>
+        </div>
+    </header>
+
+    <div class="container_header">
+        <div class="text_header">
+            <h1>Cosmetics</h1>
+            <label for="branding">by Groca</label>
+            <p>The most beautiful makeup of a woman is passion. But cosmetics are esier to buy. - Yves Saint Laurent</p>
+            <a class="button" href="#">Shop now &#10132</a>
+        </div>
+        
+        <div class="image_container_header">
+            <div class="image_header">
+                <img src="images/cosmetics_coverpic.jpg" alt="cover_pic">
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <div class="deals_container">
+            <label for="deals_label">Deals</label>
+            <div class="row_1_deals_container">                    
+                <div class="deals">
+                    <div class="deals_img">
+                        <a href="#"><img src="images/face_serum_deal_1.jpg" alt="deal_1"></a>
+                    </div>
+                    <div class="deals_text">
+                        <a href="#"><p>Nourish your face with deals on face serum</p></a>
+                    <label>Get 19% off on face serums</label>
+                </div>
+            </div>
+            
+            <div class="deals_column_2">
+                <div class="deals_img">
+                    <a href="#"><img src="images/eyeliner_deal_2.jpg" alt="deal_2"></a>
+                </div>
+                <div class="deals_text">
+                    <a href="#"><p>Eyes that mesmerize with our deals</p></a>
+                    <label>Get upto 30% off on eyeliners</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products">
+            <label>Our Products</label>
+            <div class="products_row">
+                <div class="product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/mascara.jpg" alt="mascara"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>Venus HD</h3></a>
+                        <a href="#"><h4>Extension Mascara (4.6g)</h4></a>
+                        <a href="#"><h4 class="price">Price: 13.99&#36</h4></a>
+                    </div>
+                </div>
+
+                
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/foundation.jpg" alt="foundation"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>Yves Saint Laurent</h3></a>
+                        <a href="#"><h4>Octinoxate sunscreen (spf 20) foundation</h4></a>
+                        <a href="#"><h4 class="price">Price: 19.99&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/makeup-brush.jpg" alt="brushes"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>Invisible</h3></a>
+                        <a href="#"><h4>Brushes (set of 4)</h4></a>
+                        <a href="#"><h4 class="price">Price: 24.99&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/lipstick.jpg" alt="lipstick"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>Fenty Beauty</h3></a>
+                        <a href="#"><h4>Slip shine (purple pink)</h4></a>
+                        <a href="#"><h4 class="price">Price: 22.25&#36</h4></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products_row">
+                <div class="product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/eyeliner.jpg" alt="eyeliner"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>Mock Up</h3></a>
+                        <a href="#"><h4>24/7 waterproof Eyeliner</h4></a>
+                        <a href="#"><h4 class="price">Price: 7.50&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/eyeshadow.jpg" alt="eyeshadow"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>SHANY</h3></a>
+                        <a href="#"><h4>9 colour eyeshadow</h4></a>
+                        <a href="#"><h4 class="price">Price: 29.20&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/perfume.jpg" alt="perfume"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>CHANEL</h3></a>
+                        <a href="#"><h4>EAU DE PERFUM</h4></a>
+                        <a href="#"><h4 class="price">Price: 69.50&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/protection_cream.jpg" alt="protection_cream"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>USKINLAB</h3></a>
+                        <a href="#"><h4>Skin protection day cream</h4></a>
+                        <a href="#"><h4 class="price">Price: 17.25&#36</h4></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products_row">
+                <div class="product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/handcream.jpg" alt="eyeliner"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>SPA LUXETIQUE</h3></a>
+                        <a href="#"><h4>Shea butter enriched hand cream</h4></a>
+                        <a href="#"><h4 class="price">Price: 9.25&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/nailpaint.jpg" alt="nailpaint"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>TREND</h3></a>
+                        <a href="#"><h4>Sensation - velvet</h4></a>
+                        <a href="#"><h4 class="price">Price: 10.75&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/concealer.jpg" alt="concealer"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>MOCK UP</h3></a>
+                        <a href="#"><h4>Concealer</h4></a>
+                        <a href="#"><h4 class="price">Price: 16.00&#36</h4></a>
+                    </div>
+                </div>
+
+                <div class="product" id="next_product">
+                    <div class="product_img">
+                        <a href="#"><img src="images/lipgloss.png" alt="lipgloss"></a>
+                    </div>
+                    <div class="product_text">
+                        <a href="#"><h3>ANASTASIA</h3></a>
+                        <a href="#"><h4>Shiny lip gloss</h4></a>
+                        <a href="#"><h4 class="price">Price: 13.25&#36</h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="main_services">
+            <div id="services">
+                <div id="fs_div" class="s_div">
+                    <img class="fsd_img" src="images/truck_prev_ui.png" alt="truck">
+                    <div class="services_text">
+                        <p class="st_fline">Free Shipping</p>
+                        <p class="st_sline">Worldwide</p>
+                    </div>
+                </div>
+                <div id="hl_div" class="s_div">
+                    <img class="fsd_img" src="images/phone_wb.png" alt="phone">
+                    <div class="services_text">
+                        <p class="st_fline">Helpline</p>
+                        <p class="st_sline">+(000)123-4567</p>
+                    </div>
+                </div>
+                <div id="sp_div" class="s_div">
+                    <img class="fsd_img" src="images/headphone_wb.png" alt="headphone">
+                    <div class="services_text">
+                        <p class="st_fline">24x7 Support</p>
+                        <p class="st_sline">Free For Customers</p>
+                    </div>
+                </div>
+                <div id="rt_div" class="s_div">
+                    <img class="fsd_img" src="images/return_wb.png" alt="return">
+                    <div class="services_text">
+                        <p class="st_fline">Returns</p>
+                        <p class="st_sline">30 Days Free Exchanges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_footer">
+            <div class="col" id="fcol">
+                <img src="images/logo.png" alt="logo" class="col_block">
+                <a href="https://www.google.com/maps/place/58a+E+Madison+St,+Baltimore,+MD+21202,+USA/@39.2988483,-76.6142585,17z/data=!3m1!4b1!4m6!3m5!1s0x89c804976f251aff:0x10cc03527a1907d9!8m2!3d39.2988483!4d-76.6142585!16s%2Fg%2F11s4gzsgl3?entry=ttu" target="_blank" class="col_block cb_a">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</a>
+                <a href="tel:+1(423)-845-6570" class="col_block cb_a">+1 (423)-845-6570</a>
+                <a href="mailto:groca.gmart@gmail.com" class="col_block cb_a">groca.gmart@gmail.com</a>
+            </div>
+            <div class="col" >
+                <p class="col_heading">Help</p>
+                <a href="#"><p class="col_content">Search</p></a>
+                <a href="#"><p class="col_content">Help</p></a>
+                <a href="#"><p class="col_content">Information</p></a>
+                <a href="#"><p class="col_content">Privary Policy</p></a>
+                <a href="#"><p class="col_content">Shippping Information</p></a>
+            </div> 
+            <div class="col" >
+                <p  class="col_heading">Support</p>
+                <a href="#"><p class="col_content">Contact</p></a>
+                <a href="#"><p class="col_content">About Us</p></a>
+                <a href="#"><p class="col_content">Carrers</p></a>
+                <a href="#"><p class="col_content">Refund & Returns</p></a>
+                <a href="#"><p class="col_content">Deliveries</p></a>
+            </div>
+            <div class="col" >
+                <p class="col_heading">Information</p>
+                <a href="#"><p class="col_content">Search Terms</p></a>
+                <a href="#"><p class="col_content">Advanced Search</p></a>
+                <a href="#"><p class="col_content">Helps & Faqs</p></a>
+                <a href="#"><p class="col_content">Store Location</p></a>
+                <a href="#"><p class="col_content">Order & Returns</p></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

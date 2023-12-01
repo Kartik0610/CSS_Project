@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groca Grocery Mart</title>
+    <link rel="stylesheet" href="home style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="logo_s">
+                <a href="../home page/index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+            </span>
+            <span id="l_span">
+                <a class="wpage_l" id="home_l" href="index.html">Home</a>
+                <a class="wpage_l" id="shop_l" href="#start_shop">Shop</a>
+                <a class="wpage_l" id="bs_l" href="#">Best Sellers</a>
+                <a class="wpage_l" id="dotd_l" href="#">Deal of The Day</a>
+                <a class="wpage_l" id="pages_l" href="#">Pages</a>
+                <a class="wpage_l" id="cu_l" href="#services">Contact Us</a>
+            </span>
+            <span id="cust_ser">
+                <div class="hover_me">
+                    <button><img src="images/account.png" alt="account"></button>
+                    <div class="hover_content">
+                        <a href="login.html"><button>Sign up</button></a>
+                        <p id="c_join">New customer?<a class="join" href="login.html"> join now</a></p>
+                        <hr>
+                        <a href="sign-up.html" class="join">My Orders</a>
+                        <a href="#" class="join">My recommendations</a>
+                        <a href="#" class="join">My subscriptions</a>
+                        <a href="#" class="join">My account</a>
+                    </div>
+                </div>
+                <a href="#" class="a_link">
+                    <img src="images/cart.png" alt="cart" >
+                </a>
+                <a href="#" class="a_link">
+                    <img src="images/favourite.png" alt="favourite" >
+                </a>
+                <select name="country" id="country">
+                    <option value="select_your_country">Country</option>
+                    <option value="us">US</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </span>
+        </nav>
+        <div id="input">
+            <div class="hover_me" id="all_categories">
+                <button>All category</button>
+                <div class="hover_content" id="page_links">
+                    <a href="fashion page.html" class="hc_a">Clothing</a>
+                    <hr class="hc_hr">
+                    <a href="vegetables&fruit.html" class="hc_a">Vegetables & Fruits</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Technology</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Household</a>
+                    <hr class="hc_hr">
+                    <a href="new_dairy.html" class="hc_a">Dairy</a>
+                    <hr class="hc_hr">
+                    <a href="cosmetics.html" class="hc_a">Cosmetics</a>
+                    <hr class="hc_hr">
+                    <a href="medi.html" class="hc_a">Medicine</a>
+                    <hr class="hc_hr">
+                    <a href="#" class="hc_a">Check out our deals</a>
+                </div>
+            </div>
+            <input type="text" name="search" id="search">
+             <button id="si_button"><label for="search" id="search_input"><img src="images/search.png" alt="search button"></label></button>
+        </div>
+    </header>
+    <main>
+        <div id="banner">
+            <div id="b_text">
+                <img id="leaves" src="images/leaves.png" alt="fresh leaves">
+                <p id="b_fline">100&percnt; Healthy & Affordable</p>
+                <p id="b_sline">Organic Vegetables</p>
+                <p id="b_tline">Small Changes Big Difference</p>
+                <a href="../vegetable and healthcare/project_web.html"><button id="b_button">Shop Now</button></a>
+            </div>
+            <div id="div_img">
+                <img src="images/vege_wb.png" alt="frsh Vegetables">
+            </div>
+        </div>
+        <p class="cbs_text" id="start_shop">shop fresh</p>
+        <div id="vege_link">
+            <div id="fresh_fruit" class="fv_link">
+                <img src="images/fruits_link.webp" alt="Fruit">
+                <p class="vege_ltext">Fresh Fruits</p>
+            </div>
+            <div id="fresh_vege" class="fv_link">
+                <img src="images/vegetable_link.webp" alt="Vegetables">
+                <p class="vege_ltext">Fresh Vegetables</p>
+            </div>
+            <div id="pb_protein" class="fv_link">
+                <img src="images/plant_based_proteins.webp" alt="Plant based protein">
+                <p class="vege_ltext">Plant Based Protein</p>
+            </div>
+            <div id="canada_produce" class="fv_link">
+                <img src="images/canada_produce_link.webp" alt="Canadian produce">
+                <p class="vege_ltext">Canada Produce</p>
+            </div>
+        </div>
+        <div class="category_bs">
+            <p class="cbs_text">Category BestSellers</p>
+            <div>
+                <div class="cbs_products">
+                    <div id="banana_link" class="bs_product">
+                        <img src="images/banana.jpg" alt="Fresh banana">
+                        <div class="bl_text">
+                            <p class="blt_fline">&dollar;1.28/Kg</p>
+                            <p class="blt_sline">Banana</p>
+                            <p class="blt_tline">Sold in Singles</p>
+                        </div>
+                    </div>
+                    <div id="cucumember" class="bs_product">
+                        <img src="images/cucumember.jpg" alt="Fresh cucumember">
+                        <div class="bl_text">
+                            <p class="blt_fline">&dollar;1</p>
+                            <p class="blt_sline">Cucumember</p>
+                            <p class="blt_tline">Sold in Singles</p>
+                        </div>
+                    </div>
+                    <div id="bellpeper" class="bs_product">
+                        <img src="images/rainbow_bellpeper.jpg" alt="Fresh Bellpeper">
+                        <div class="bl_text">
+                            <p class="blt_fline">&dollar;3.97</p>
+                            <p class="blt_sline">Rainbow Bellpeper</p>
+                            <p class="blt_tline">Pack of 3</p>
+                        </div>
+                    </div>
+                    <div id="tomato" class="bs_product">
+                        <img src="images/tomato.jpg" alt="Fresh tomato">
+                        <div class="bl_text">
+                            <p class="blt_fline">&dollar;1.63/Kg</p>
+                            <p class="blt_sline">Tomato</p>
+                            <p class="blt_tline">Sold per Kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pharamacy">
+            <div id="ph_text">
+                 <img src="images/pharmacy_logo.png" alt="pharmacy logo">
+                 <p>leave your health problems,</p>
+                 <p>to someone,</p>
+                 <p>everyone around you trust.</p>
+                 <a href="appointments.html"><button id="ph_button">Book now</button></a>
+            </div>
+            <div id="ph_img">
+                <img src="images/lady_doctor.png" alt="lady doctor">
+            </div>
+        </div>
+        <div id="fash_div" class="s_product">
+            <div id="fash_banner">
+                <a href="fashion page.html"><img src="images/fashion banner2.jpg" alt="fashion "></a>
+            </div>
+            <div id="fashion_fp" class="f_products">
+                <div id="blue_sshoes" class="product">
+                    <img class="products" src="images/sports-shoe-blue.jpg" alt="blue sports shoe">
+                    <p class="p_fline">Men's Shoes</p>
+                    <a href="#">
+                        <p class="p_sline">dnk black blue sport shoes</p>
+                    </a>
+                    <p class="p_tline"><del>  &dollar;35.00  </del>   &dollar;32.00</p>
+                </div>
+                <div id="dbrown_jean" class="product">
+                    <img class="products" src="images/product-m-jeans.jpg" alt="jeans">
+                    <p class="p_fline">Men's Jeans</p>
+                    <a href="#">
+                        <p class="p_sline">dark brown jeans</p>
+                    </a>
+                    <p class="p_tline">&dollar; 145.00</p>
+                </div>
+                <div id="red_sshoes" class="product">
+                    <img class="products" src="images/sports-shoe-purple.jpg" alt="purple sports shoe">
+                    <p class="p_fline">Men's Shoes</p>
+                    <a href="#">
+                        <p class="p_sline">dnk red sport shoes</p>
+                    </a>
+                    <p class="p_tline"><del>  &dollar;35.00  </del> &dollar;32.00</p>
+                </div>
+                <div id="bdenim_short" class="product">
+                    <img class="products" src="images/product-w-jeans-girls.jpg" alt="jeans">
+                    <p class="p_fline">Women's Jeans</p>
+                    <a href="#">
+                        <p class="p_sline">blue denim shorts</p>
+                    </a>
+                    <p class="p_tline"><del>  &dollar;45.00  </del> &dollar;35.00</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="tech_div" class="s_product">
+            <div id="tech_banner">
+                <div id="tb_text">
+                    <p id="tbt_fline">say hello to the future</p>
+                    <p id="tbt_sline">Super Rentia HD Display</p>
+                    <a href="#">
+                        <button id="tb_button">Shop Now</button>
+                    </a>
+                </div>
+                <div id="tb_image">
+                    <img src="images/tv_wb.png" alt="Ultra edge TV">
+                </div>
+            </div>
+            <div >
+                <div>
+                    <p class="cbs_text">tech best Sellers</p>
+                    <div class="cbs_products">
+                        <div class="bs_product tech_products">
+                            <img src="images/WhatsApp Image 2023-08-06 at 19.55.27.jpeg" alt="Suokom headphone">
+                            <div class="bl_text">
+                                <p class="blt_fline">Suokom Headphone</p>
+                                <p class="blt_sline">Over-ear</p>
+                                <p class="blt_tline">&dollar;23</p>
+                            </div>
+                        </div>
+                        <div class="bs_product tech_products">
+                            <img src="images/WhatsApp Image 2023-08-06 at 19.55.28.jpeg" alt="Airpods Max">
+                            <div class="bl_text">
+                                <p class="blt_fline">Apple AirPods Max</p>
+                                <p class="blt_sline">Max Headphones</p>
+                                <p class="blt_tline">&dollar;778.77</p>
+                            </div>
+                        </div>
+                        <div class="bs_product tech_products">
+                            <img src="images/boy_headphone.jpeg" alt="Airpods">
+                            <div class="bl_text">
+                                <p class="blt_fline">AirPods</p>
+                                <p class="blt_sline">3rd gen</p>
+                                <p class="blt_tline">&dollar;239</p>
+                            </div>
+                        </div>
+                        <div class="bs_product tech_products">
+                            <img src="images/WhatsApp Image 2023-08-06 at 19.55.28 (1).jpeg" alt="ipad">
+                            <div class="bl_text">
+                                <p class="blt_fline">10.2'' ipad</p>
+                                <p class="blt_sline">9th generation</p>
+                                <p class="blt_tline">&dollar;419.97</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="cbs_text">Other BestSellers</p>
+            <div class="cbs_products">
+                <div class="bs_product">
+                    <img src="images/bedsheet.jpeg" alt="bedsheet">
+                    <div class="bl_text">
+                        <p class="blt_fline">Bedsheet</p>
+                        <p class="blt_sline">Queen size</p>
+                        <p class="blt_tline">&dollar;25</p>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/vaccum.jpeg" alt="vaccum cleaner">
+                    <div class="bl_text">
+                        <P class="blt_fline">Vaccum cleaner</P>
+                        <P class="blt_sline">36 inch</P>
+                        <P class="blt_tline">&dollar;47.70</P>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/utencils.jpeg" alt="utencil set">
+                    <div class="bl_text">
+                        <p class="blt_fline">Utencil set</p>
+                        <p class="blt_sline">non stick</p>
+                        <p class="blt_tline">&dollar;79.30</p>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/curtains.jpeg" alt="curtains">
+                    <div class="bl_text">
+                        <p class="blt_fline">Curtians</p>
+                        <p class="blt_sline">Gray</p>
+                        <p class="blt_tline">&dollar;43.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cbs_products">
+                <div class="bs_product">
+                    <img src="images/pet_leash.jpeg" alt="pet leash">
+                    <div class="bl_text">
+                        <p class="blt_fline">Leash</p>
+                        <p class="blt_sline">36m</p>
+                        <p class="blt_tline">&dollar;27.99</p>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/canadian_beef.webp" alt="beef">
+                    <div class="bl_text">
+                        <div class="bl_text">
+                            <p class="blt_fline">Canadian Beef</p>
+                            <p class="blt_sline">AAA boneless rib</p>
+                            <p class="blt_tline">&dollar;6.98/lb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/smoke_detector.jpeg" alt="smoke detector">
+                    <div class="bl_text">
+                        <p class="blt_fline">Smoke detector</p>
+                        <p class="blt_sline">sds</p>
+                        <p class="blt_tline">&dollar;78.99</p>
+                    </div>
+                </div>
+                <div class="bs_product">
+                    <img src="images/pet_plate.jpeg" alt="pet bowl">
+                    <div class="bl_text">
+                        <p class="blt_fline">Pet bowl</p>
+                        <p class="blt_sline">sdfs</p>
+                        <p class="blt_tline">&dollar;22.35</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_au">
+            <div id="about_us">
+                <img src="images/about_us_review-removebg-preview.jpg.png" alt="phone">
+                <div id="au_text">
+                    <p id="aut_heading">About Us</p>
+                    <p id="aut_content">Did your ever imagine that the freshest of fruits and vegetables, top quality pulses and food grains, drainy products and hundreds of branded items could be handipicked and delivered to your home, all at the click of a button? We, Groca, located in Malad West, Mumbai, Maharashtra seek out the finest natural and organic foods available, maintain the strictest quality standards in the industry. Once you start to shop form us, you will start to get a sense of what we're all about. We are a mission-driven company. We invite you to browse through our store where you can take your pick from a large variety of grocery and other food items.</p>
+                </div>
+            </div>
+            <div id="review">
+                <div id="review1" class="reviews">
+                    <div class="about_customer">
+                        <img src="images/review_1.png" alt="customer">
+                        <p class="customer_name">Lindse Johnson</p>
+                    </div>
+                    <p class="main_review">They are amazing in providing all the products you need in your daily lives. With an amazing discount they also provide excellent delivery service.<p>
+                    <img class="star_rating" src="images/star_rating.png" alt="rating">
+                </div>
+                <hr id="review_hr">
+                <div id="review2" class="reviews">
+                    <div class="about_customer">
+                        <img src="images/review_2.png" alt="customer">
+                        <p class="customer_name">Mc Berry Walter</p>
+                    </div>
+                    <p class="main_review">The best part about, you get groceries delivered at your doorstep without any stress.<p>
+                    <img class="star_rating" src="images/star_rating.png" alt="rating">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="main_services">
+            <div id="services">
+                <div id="fs_div" class="s_div">
+                    <img class="fsd_img" src="images/truck_prev_ui.png" alt="truck">
+                    <div class="services_text">
+                        <p class="st_fline">Free Shipping</p>
+                        <p class="st_sline">Worldwide</p>
+                    </div>
+                </div>
+                <div id="hl_div" class="s_div">
+                    <img class="fsd_img" src="images/phone_wb.png" alt="phone">
+                    <div class="services_text">
+                        <p class="st_fline">Helpline</p>
+                        <p class="st_sline">+(000)123-4567</p>
+                    </div>
+                </div>
+                <div id="sp_div" class="s_div">
+                    <img class="fsd_img" src="images/headphone_wb.png" alt="headphone">
+                    <div class="services_text">
+                        <p class="st_fline">24x7 Support</p>
+                        <p class="st_sline">Free For Customers</p>
+                    </div>
+                </div>
+                <div id="rt_div" class="s_div">
+                    <img class="fsd_img" src="images/return_wb.png" alt="return">
+                    <div class="services_text">
+                        <p class="st_fline">Returns</p>
+                        <p class="st_sline">30 Days Free Exchanges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_footer">
+            <div class="col" id="fcol">
+                <img src="images/logo.png" alt="logo" class="col_block">
+                <a href="https://www.google.com/maps/place/58a+E+Madison+St,+Baltimore,+MD+21202,+USA/@39.2988483,-76.6142585,17z/data=!3m1!4b1!4m6!3m5!1s0x89c804976f251aff:0x10cc03527a1907d9!8m2!3d39.2988483!4d-76.6142585!16s%2Fg%2F11s4gzsgl3?entry=ttu" target="_blank" class="col_block cb_a">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</a>
+                <a href="tel:+1(423)-845-6570" class="col_block cb_a">+1 (423)-845-6570</a>
+                <a href="mailto:groca.gmart@gmail.com" class="col_block cb_a">groca.gmart@gmail.com</a>
+            </div>
+            <div class="col" >
+                <p class="col_heading">Help</p>
+                <a href="#"><p class="col_content">Search</p></a>
+                <a href="#"><p class="col_content">Help</p></a>
+                <a href="#"><p class="col_content">Information</p></a>
+                <a href="#"><p class="col_content">Privary Policy</p></a>
+                <a href="#"><p class="col_content">Shippping Information</p></a>
+            </div> 
+            <div class="col" >
+                <p  class="col_heading">Support</p>
+                <a href="#"><p class="col_content">Contact</p></a>
+                <a href="#"><p class="col_content">About Us</p></a>
+                <a href="#"><p class="col_content">Carrers</p></a>
+                <a href="#"><p class="col_content">Refund & Returns</p></a>
+                <a href="#"><p class="col_content">Deliveries</p></a>
+            </div>
+            <div class="col" >
+                <p class="col_heading">Information</p>
+                <a href="#"><p class="col_content">Search Terms</p></a>
+                <a href="#"><p class="col_content">Advanced Search</p></a>
+                <a href="#"><p class="col_content">Helps & Faqs</p></a>
+                <a href="#"><p class="col_content">Store Location</p></a>
+                <a href="#"><p class="col_content">Order & Returns</p></a>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>
